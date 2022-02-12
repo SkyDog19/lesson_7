@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: local('../fonts/Lato Regular'), local('Lato-Regular'),
+        url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.eot');
+    src: local('../fonts/Lato Bold'), local('Lato-Bold'),
+        url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Bold.woff') format('woff'),
+        url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.wreaper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    max-width: 810px;
+    margin: 0 auto 60px;
+}
+
+h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 26px;
+    
+}
+
+.timelist li {
+    font-family: 'Lato';
+font-size: 16px;
+color: #787A80;
+margin: 0 24px 40px 0;
+display: inline-block;
+}
+
+.data-1 {
+    background: url("../image/Calendar.png") 0 0/auto auto no-repeat;
+    min-height: 18px;
+    padding-left: 24px;
+}
+.data-2 {
+    background: url("../image/Clock.png") 0 0/auto auto no-repeat;
+    min-height: 18px;
+    padding-left: 24px;
+}
+
+.main {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+.block-bold {
+    font-family: 'Lato';
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+margin-bottom: 16px;
+}
+
+.block-normal p {
+    font-family: 'Lato';
+    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 38px;  
+}
+
+.block-boldtwo {
+    margin-bottom: 48px;
+    padding-left: 58px;
+    background: url("../image/braces.png") 0 2px/auto auto no-repeat;
+    font-family: 'Lato';
+
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+
+}
+
+.block-normaltwo {
+    font-family: 'Lato';
+    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 24px;
+}
+
+.list li {
+    background: url("../image/check.png") 0 3px/auto no-repeat;
+    padding-left: 32px;
+    margin-bottom: 4px;
+    min-height: 26px;
+    font-family: 'Lato';
+
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+}
+
+.block-textdfinal {
+    margin: 24px 0 60px 0;
+    font-family: 'Lato';
+
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+}
+.footer {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
